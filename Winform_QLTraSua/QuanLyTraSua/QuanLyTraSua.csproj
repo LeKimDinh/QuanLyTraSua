@@ -64,6 +64,60 @@
     <Compile Include="Home2.Designer.cs">
       <DependentUpon>Home2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuCombo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuCombo.Designer.cs">
+      <DependentUpon>MenuCombo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuComboTietKiem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuComboTietKiem.Designer.cs">
+      <DependentUpon>MenuComboTietKiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuSuaTuoiNguyenChat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuSuaTuoiNguyenChat.Designer.cs">
+      <DependentUpon>MenuSuaTuoiNguyenChat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuThucAn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuThucAn.Designer.cs">
+      <DependentUpon>MenuThucAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuTopping.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuTopping.Designer.cs">
+      <DependentUpon>MenuTopping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuTraKhong Sua.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuTraKhong Sua.Designer.cs">
+      <DependentUpon>MenuTraKhong Sua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuTraXanh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuTraXanh.Designer.cs">
+      <DependentUpon>MenuTraXanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuXienQue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuXienQue.Designer.cs">
+      <DependentUpon>MenuXienQue.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -74,6 +128,33 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Home2.resx">
       <DependentUpon>Home2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuCombo.resx">
+      <DependentUpon>MenuCombo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuComboTietKiem.resx">
+      <DependentUpon>MenuComboTietKiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuSuaTuoiNguyenChat.resx">
+      <DependentUpon>MenuSuaTuoiNguyenChat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuThucAn.resx">
+      <DependentUpon>MenuThucAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuTopping.resx">
+      <DependentUpon>MenuTopping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuTraKhong Sua.resx">
+      <DependentUpon>MenuTraKhong Sua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuTraXanh.resx">
+      <DependentUpon>MenuTraXanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuXienQue.resx">
+      <DependentUpon>MenuXienQue.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

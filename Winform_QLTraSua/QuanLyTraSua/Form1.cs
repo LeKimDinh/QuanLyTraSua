@@ -38,6 +38,9 @@ namespace QuanLyTraSua
         private void button3_Click(object sender, EventArgs e)
         {
             sidepanel.Location = new Point(button3.Location.X+3, button3.Location.Y + button3.Height);
+            Menu menu = new Menu();
+            menu.ShowDialog();
+            
 
         }
 

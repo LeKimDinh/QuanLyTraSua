@@ -38,6 +38,7 @@
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.sidepanel = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -46,13 +47,12 @@
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.home21 = new QuanLyTraSua.Home2();
             this.home11 = new QuanLyTraSua.Home1();
             this.rdHome1 = new System.Windows.Forms.RadioButton();
             this.rdHome2 = new System.Windows.Forms.RadioButton();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.sidepanel = new System.Windows.Forms.Panel();
             this.HomeTime = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -77,6 +77,7 @@
             // 
             // button7
             // 
+            this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(36)))), ((int)(((byte)(103)))));
             this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -92,13 +93,14 @@
             // 
             // button12
             // 
+            this.button12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(36)))), ((int)(((byte)(103)))));
             this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button12.Image = ((System.Drawing.Image)(resources.GetObject("button12.Image")));
-            this.button12.Location = new System.Drawing.Point(931, 7);
+            this.button12.Location = new System.Drawing.Point(934, 7);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(167, 86);
             this.button12.TabIndex = 8;
@@ -109,13 +111,14 @@
             // 
             // button11
             // 
+            this.button11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(36)))), ((int)(((byte)(103)))));
             this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button11.Image = ((System.Drawing.Image)(resources.GetObject("button11.Image")));
-            this.button11.Location = new System.Drawing.Point(622, 6);
+            this.button11.Location = new System.Drawing.Point(623, 7);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(299, 87);
             this.button11.TabIndex = 7;
@@ -126,6 +129,7 @@
             // 
             // button10
             // 
+            this.button10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(36)))), ((int)(((byte)(103)))));
             this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -143,6 +147,7 @@
             // 
             // button9
             // 
+            this.button9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(36)))), ((int)(((byte)(103)))));
             this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -160,15 +165,16 @@
             // 
             // button8
             // 
+            this.button8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(36)))), ((int)(((byte)(103)))));
             this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
-            this.button8.Location = new System.Drawing.Point(11, 7);
+            this.button8.Location = new System.Drawing.Point(9, 7);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(200, 88);
+            this.button8.Size = new System.Drawing.Size(206, 88);
             this.button8.TabIndex = 4;
             this.button8.Text = "19002230";
             this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -193,6 +199,15 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1239, 137);
             this.panel2.TabIndex = 1;
+            // 
+            // sidepanel
+            // 
+            this.sidepanel.BackColor = System.Drawing.Color.Black;
+            this.sidepanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.sidepanel.Location = new System.Drawing.Point(279, 125);
+            this.sidepanel.Name = "sidepanel";
+            this.sidepanel.Size = new System.Drawing.Size(105, 5);
+            this.sidepanel.TabIndex = 2;
             // 
             // button6
             // 
@@ -296,6 +311,14 @@
             this.panel3.Size = new System.Drawing.Size(146, 135);
             this.panel3.TabIndex = 2;
             // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(36)))), ((int)(((byte)(103)))));
+            this.panel5.Location = new System.Drawing.Point(0, 29);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(1239, 66);
+            this.panel5.TabIndex = 7;
+            // 
             // panel4
             // 
             this.panel4.Controls.Add(this.home21);
@@ -316,13 +339,13 @@
             // 
             this.home11.Location = new System.Drawing.Point(0, 0);
             this.home11.Name = "home11";
-            this.home11.Size = new System.Drawing.Size(1029, 429);
+            this.home11.Size = new System.Drawing.Size(1029, 418);
             this.home11.TabIndex = 0;
             // 
             // rdHome1
             // 
             this.rdHome1.AutoSize = true;
-            this.rdHome1.Location = new System.Drawing.Point(593, 575);
+            this.rdHome1.Location = new System.Drawing.Point(597, 565);
             this.rdHome1.Name = "rdHome1";
             this.rdHome1.Size = new System.Drawing.Size(17, 16);
             this.rdHome1.TabIndex = 3;
@@ -333,30 +356,13 @@
             // rdHome2
             // 
             this.rdHome2.AutoSize = true;
-            this.rdHome2.Location = new System.Drawing.Point(622, 575);
+            this.rdHome2.Location = new System.Drawing.Point(626, 565);
             this.rdHome2.Name = "rdHome2";
             this.rdHome2.Size = new System.Drawing.Size(17, 16);
             this.rdHome2.TabIndex = 4;
             this.rdHome2.TabStop = true;
             this.rdHome2.UseVisualStyleBackColor = true;
             this.rdHome2.CheckedChanged += new System.EventHandler(this.rdHome2_CheckedChanged);
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(36)))), ((int)(((byte)(103)))));
-            this.panel5.Location = new System.Drawing.Point(0, 29);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1239, 66);
-            this.panel5.TabIndex = 7;
-            // 
-            // sidepanel
-            // 
-            this.sidepanel.BackColor = System.Drawing.Color.Black;
-            this.sidepanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.sidepanel.Location = new System.Drawing.Point(279, 125);
-            this.sidepanel.Name = "sidepanel";
-            this.sidepanel.Size = new System.Drawing.Size(105, 5);
-            this.sidepanel.TabIndex = 2;
             // 
             // HomeTime
             // 
@@ -374,9 +380,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.Transparent;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "77";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
