@@ -40,10 +40,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pnmenu = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.menuComboTietKiem1 = new QuanLyTraSua.MenuComboTietKiem();
             this.menuThucAn1 = new QuanLyTraSua.MenuThucAn();
             this.menuTopping1 = new QuanLyTraSua.MenuTopping();
             this.menuXienQue1 = new QuanLyTraSua.MenuXienQue();
@@ -51,11 +48,25 @@
             this.menuTraKhong_Sua1 = new QuanLyTraSua.MenuTraKhong_Sua();
             this.menuCombo1 = new QuanLyTraSua.MenuCombo();
             this.menuTraXanh1 = new QuanLyTraSua.MenuTraXanh();
-            this.menuComboTietKiem1 = new QuanLyTraSua.MenuComboTietKiem();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.pnmenu.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -228,42 +239,12 @@
             this.pnmenu.Size = new System.Drawing.Size(819, 518);
             this.pnmenu.TabIndex = 1;
             // 
-            // panel3
+            // menuComboTietKiem1
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(36)))), ((int)(((byte)(103)))));
-            this.panel3.Controls.Add(this.label1);
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(820, 65);
-            this.panel3.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(65, 24);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(36)))), ((int)(((byte)(103)))));
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1113, 181);
-            this.panel4.TabIndex = 2;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.White;
-            this.panel5.Location = new System.Drawing.Point(0, 180);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1113, 472);
-            this.panel5.TabIndex = 3;
+            this.menuComboTietKiem1.Location = new System.Drawing.Point(0, 0);
+            this.menuComboTietKiem1.Name = "menuComboTietKiem1";
+            this.menuComboTietKiem1.Size = new System.Drawing.Size(819, 518);
+            this.menuComboTietKiem1.TabIndex = 7;
             // 
             // menuThucAn1
             // 
@@ -317,22 +298,146 @@
             this.menuTraXanh1.Size = new System.Drawing.Size(819, 518);
             this.menuTraXanh1.TabIndex = 0;
             // 
-            // menuComboTietKiem1
+            // panel3
             // 
-            this.menuComboTietKiem1.Location = new System.Drawing.Point(0, 0);
-            this.menuComboTietKiem1.Name = "menuComboTietKiem1";
-            this.menuComboTietKiem1.Size = new System.Drawing.Size(819, 518);
-            this.menuComboTietKiem1.TabIndex = 7;
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(36)))), ((int)(((byte)(103)))));
+            this.panel3.Controls.Add(this.label1);
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(820, 65);
+            this.panel3.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(65, 24);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(59, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "label1";
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(36)))), ((int)(((byte)(103)))));
+            this.panel4.Controls.Add(this.button11);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(1519, 109);
+            this.panel4.TabIndex = 2;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(36)))), ((int)(((byte)(103)))));
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button9.Location = new System.Drawing.Point(93, 51);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(135, 42);
+            this.button9.TabIndex = 9;
+            this.button9.Text = "Mua";
+            this.button9.UseVisualStyleBackColor = false;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(36)))), ((int)(((byte)(103)))));
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button10.Location = new System.Drawing.Point(236, 51);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(77, 42);
+            this.button10.TabIndex = 10;
+            this.button10.Text = "Hủy";
+            this.button10.UseVisualStyleBackColor = false;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.Silver;
+            this.button11.Enabled = false;
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.button11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button11.Location = new System.Drawing.Point(1200, 41);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(220, 62);
+            this.button11.TabIndex = 9;
+            this.button11.Text = "Đơn hàng";
+            this.button11.UseVisualStyleBackColor = false;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3});
+            this.dataGridView1.Location = new System.Drawing.Point(1107, 109);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(396, 414);
+            this.dataGridView1.TabIndex = 10;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Tên Món";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 170;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Số lượng";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 50;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Giá";
+            this.Column3.MinimumWidth = 6;
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 80;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(93, 2);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textBox1.Size = new System.Drawing.Size(220, 43);
+            this.textBox1.TabIndex = 11;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(36)))), ((int)(((byte)(103)))));
+            this.panel5.Controls.Add(this.textBox1);
+            this.panel5.Controls.Add(this.button9);
+            this.panel5.Controls.Add(this.button10);
+            this.panel5.Location = new System.Drawing.Point(1107, 527);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(396, 96);
+            this.panel5.TabIndex = 12;
             // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1113, 664);
+            this.ClientSize = new System.Drawing.Size(1519, 664);
+            this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel2);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel5);
             this.Name = "Menu";
             this.Text = "Menu";
             this.Load += new System.EventHandler(this.Menu_Load);
@@ -341,6 +446,10 @@
             this.pnmenu.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -361,7 +470,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel side;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel pnmenu;
         private MenuTraXanh menuTraXanh1;
         private MenuCombo menuCombo1;
@@ -371,5 +479,14 @@
         private MenuTopping menuTopping1;
         private MenuThucAn menuThucAn1;
         private MenuComboTietKiem menuComboTietKiem1;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Panel panel5;
     }
 }

@@ -12,11 +12,13 @@ namespace QuanLyTraSua
 {
     public partial class Menu : Form
     {
+       
         public Menu()
         {
             InitializeComponent();
+            
         }
-
+       
         private void button1_Click(object sender, EventArgs e)
         {
             
@@ -36,6 +38,7 @@ namespace QuanLyTraSua
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
             button2.BackColor = Color.FromArgb(81, 36, 103);
             button1.BackColor = Color.Silver;
             button3.BackColor = Color.Silver;
@@ -89,6 +92,7 @@ namespace QuanLyTraSua
         {
             menuTraXanh1.BringToFront();
             label1.Text = button1.Text;
+           
         }
 
         private void button5_Click(object sender, EventArgs e)
