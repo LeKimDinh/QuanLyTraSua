@@ -12,22 +12,43 @@ namespace QuanLyTraSua
 {
     public partial class MenuCombo : UserControl
     {
-        public static string TenMon = "";
+        
         public MenuCombo()
         {
             InitializeComponent();
         }
-
        
-
-        
-
         private void btnChonMon1_Click(object sender, EventArgs e)
         {
-            MenuCombo.TenMon = label12.Text;
+            ChonMon.GiaTien = label11.Text;
+            ChonMon.TenMon = label12.Text;
             ChonMon chonMon = new ChonMon();
             chonMon.ShowDialog();
             
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ChonMon.GiaTien = label4.Text;
+            ChonMon.TenMon = label5.Text;
+            ChonMon chonMon = new ChonMon();
+            chonMon.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ChonMon.GiaTien = label1.Text;
+            ChonMon.TenMon = label3.Text;
+            ChonMon chonMon = new ChonMon();
+            chonMon.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ChonMon.GiaTien = label6.Text;
+            ChonMon.TenMon = label7.Text;
+            ChonMon chonMon = new ChonMon();
+            chonMon.ShowDialog();
         }
     }
 }

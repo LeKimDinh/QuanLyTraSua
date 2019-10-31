@@ -34,6 +34,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -52,6 +54,12 @@
     <Compile Include="ChonMon.Designer.cs">
       <DependentUpon>ChonMon.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChonMon2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChonMon2.Designer.cs">
+      <DependentUpon>ChonMon2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +77,12 @@
     </Compile>
     <Compile Include="Home2.Designer.cs">
       <DependentUpon>Home2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="home3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="home3.Designer.cs">
+      <DependentUpon>home3.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
@@ -129,6 +143,9 @@
     <EmbeddedResource Include="ChonMon.resx">
       <DependentUpon>ChonMon.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ChonMon2.resx">
+      <DependentUpon>ChonMon2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,6 +154,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Home2.resx">
       <DependentUpon>Home2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home3.resx">
+      <DependentUpon>home3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>

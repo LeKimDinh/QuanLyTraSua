@@ -22,7 +22,7 @@ namespace QuanLyTraSua
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            home21.BringToFront();
+            home31.BringToFront();
             sidepanel.Location = new Point(button1.Location.X+3, button1.Location.Y+button1.Height);
             
         }
@@ -79,12 +79,16 @@ namespace QuanLyTraSua
             if (value == 25)
                 home11.BringToFront();
             else if (value == 50)
-            {
                 home21.BringToFront();
-                value = 0;
-            }
-            
+            else if (value == 75)
+            { home31.BringToFront(); value = 0; }
 
+
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            home31.BringToFront();
         }
     }
 }

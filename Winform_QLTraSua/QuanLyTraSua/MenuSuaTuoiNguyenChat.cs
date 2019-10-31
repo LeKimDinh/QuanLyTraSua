@@ -16,5 +16,37 @@ namespace QuanLyTraSua
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ChonMon.GiaTien = label11.Text;
+            ChonMon.TenMon = label12.Text;
+            ChonMon chonMon = new ChonMon();
+            chonMon.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ChonMon.GiaTien = label7.Text;
+            ChonMon.TenMon = label8.Text;
+            ChonMon chonMon = new ChonMon();
+            chonMon.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ChonMon.GiaTien = label1.Text;
+            ChonMon.TenMon = label2.Text;
+            ChonMon chonMon = new ChonMon();
+            chonMon.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ChonMon.GiaTien = label3.Text;
+            ChonMon.TenMon = label4.Text;
+            ChonMon chonMon = new ChonMon();
+            chonMon.ShowDialog();
+        }
     }
 }
