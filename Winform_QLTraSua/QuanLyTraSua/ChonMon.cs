@@ -14,13 +14,14 @@ namespace QuanLyTraSua
     public partial class ChonMon : Form 
     {
         public int x, y;
-        
+        public static int TrangThai;
         public List<TextBox> lTextBox;
         public static string TenMon = "";
         public static string GiaTien = "";
         public int costsize;
         public int giathanh = 0;
         public string cost;
+       
         public ChonMon()
         {
 
@@ -46,6 +47,7 @@ namespace QuanLyTraSua
             lTextBox = new List<TextBox>();
             lTextBox.Add(textBox1);
             lTextBox.Add(textBox2);
+            ChonMon.GiaTien = giathanh.ToString();
         }
         
        
@@ -99,17 +101,19 @@ namespace QuanLyTraSua
             button2.ForeColor = Color.Black;
             giathanh -= costsize;
             label5.Text = giathanh.ToString();
+            ChonMon.GiaTien = giathanh.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             button2.BackColor = Color.FromArgb(81, 36, 103);
             button2.ForeColor = Color.White;
-            costsize = 10000* Convert.ToInt32(numericUpDown1.Value.ToString());
+            costsize = 10000 * Convert.ToInt32(numericUpDown1.Value.ToString());
             button1.BackColor = Color.Gainsboro;
             button1.ForeColor = Color.Black;
             giathanh += costsize;
             label5.Text = giathanh.ToString();
+            ChonMon.GiaTien = giathanh.ToString();
 
         }
 
@@ -117,6 +121,7 @@ namespace QuanLyTraSua
         {
             giathanh *= Convert.ToInt32(numericUpDown1.Value.ToString());
             label5.Text = giathanh.ToString();
+            ChonMon.GiaTien = giathanh.ToString();
         }
 
        
@@ -154,6 +159,8 @@ namespace QuanLyTraSua
 
                 giathanh += 7000;
                 label5.Text = giathanh.ToString();
+                ChonMon.GiaTien = giathanh.ToString();
+                ChonMon.TenMon += ", " + newTextBox.Text;
             }
         }
 
@@ -186,6 +193,8 @@ namespace QuanLyTraSua
 
                 giathanh += 7000;
                 label5.Text = giathanh.ToString();
+                ChonMon.GiaTien = giathanh.ToString();
+                ChonMon.TenMon += ", " + newTextBox.Text;
             }
         }
 
@@ -218,6 +227,8 @@ namespace QuanLyTraSua
 
                 giathanh += 7000;
                 label5.Text = giathanh.ToString();
+                ChonMon.GiaTien = giathanh.ToString();
+                ChonMon.TenMon += ", " + newTextBox.Text;
             }
         }
 
@@ -250,6 +261,8 @@ namespace QuanLyTraSua
 
                 giathanh += 7000;
                 label5.Text = giathanh.ToString();
+                ChonMon.GiaTien = giathanh.ToString();
+                ChonMon.TenMon += ", " + newTextBox.Text;
             }
         }
 
@@ -282,6 +295,8 @@ namespace QuanLyTraSua
 
                 giathanh += 7000;
                 label5.Text = giathanh.ToString();
+                ChonMon.GiaTien = giathanh.ToString();
+                ChonMon.TenMon += ", " + newTextBox.Text;
             }
         }
 
@@ -314,6 +329,8 @@ namespace QuanLyTraSua
 
                 giathanh += 7000;
                 label5.Text = giathanh.ToString();
+                ChonMon.GiaTien = giathanh.ToString();
+                ChonMon.TenMon += ", " + newTextBox.Text;
             }
         }
 
@@ -346,6 +363,8 @@ namespace QuanLyTraSua
 
                 giathanh += 7000;
                 label5.Text = giathanh.ToString();
+                ChonMon.GiaTien = giathanh.ToString();
+                ChonMon.TenMon += ", " + newTextBox.Text;
             }
         }
 
@@ -378,6 +397,8 @@ namespace QuanLyTraSua
 
                 giathanh += 7000;
                 label5.Text = giathanh.ToString();
+                ChonMon.GiaTien = giathanh.ToString();
+                ChonMon.TenMon += ", " + newTextBox.Text;
             }
         }
 
@@ -410,6 +431,8 @@ namespace QuanLyTraSua
 
                 giathanh += 7000;
                 label5.Text = giathanh.ToString();
+                ChonMon.GiaTien = giathanh.ToString();
+                ChonMon.TenMon += ", " + newTextBox.Text;
             }
         }
 
@@ -442,6 +465,8 @@ namespace QuanLyTraSua
 
                 giathanh += 7000;
                 label5.Text = giathanh.ToString();
+                ChonMon.GiaTien = giathanh.ToString();
+                ChonMon.TenMon += ", " + newTextBox.Text;
             }
         }
 
@@ -473,7 +498,8 @@ namespace QuanLyTraSua
                 panel3.Show();
                 giathanh += 7000;
                 label5.Text = giathanh.ToString();
-
+                ChonMon.GiaTien = giathanh.ToString();
+                ChonMon.TenMon += ", " +newTextBox.Text;
             }
         }
 
@@ -505,7 +531,8 @@ namespace QuanLyTraSua
                 panel3.Show();
                 giathanh += 7000;
                 label5.Text = giathanh.ToString();
-
+                ChonMon.GiaTien = giathanh.ToString();
+                ChonMon.TenMon += ", " + newTextBox.Text;
             }
         }
 
@@ -538,6 +565,8 @@ namespace QuanLyTraSua
 
                 giathanh += 7000;
                 label5.Text = giathanh.ToString();
+                ChonMon.GiaTien = giathanh.ToString();
+                ChonMon.TenMon += ", " + newTextBox.Text;
             }
         }
 
@@ -570,6 +599,9 @@ namespace QuanLyTraSua
 
                 giathanh += 7000;
                 label5.Text = giathanh.ToString();
+
+                ChonMon.GiaTien = giathanh.ToString();
+                ChonMon.TenMon += ", " + newTextBox.Text;
             }
         }
 
@@ -602,6 +634,8 @@ namespace QuanLyTraSua
 
                 giathanh += 7000;
                 label5.Text = giathanh.ToString();
+                ChonMon.GiaTien = giathanh.ToString();
+                ChonMon.TenMon += ", " + newTextBox.Text;
             }
         }
 
@@ -882,6 +916,17 @@ namespace QuanLyTraSua
 
 
             }
+        }
+
+        public static int SoLuong;
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //Lưu vào chi tiết hóa đơn
+            MessageBox.Show(ChonMon.TenMon);
+            MessageBox.Show(ChonMon.GiaTien);
+            ChonMon.SoLuong = Convert.ToInt32(numericUpDown1.Value.ToString());
+            ChonMon.TrangThai = 1;
+            this.Close();
         }
 
         private void button6_Click(object sender, EventArgs e)

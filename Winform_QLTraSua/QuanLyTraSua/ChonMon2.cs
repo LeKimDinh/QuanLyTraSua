@@ -56,5 +56,16 @@ namespace QuanLyTraSua
         {
             this.Close();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ChonMon.TenMon = label1.Text;
+            ChonMon.GiaTien = giathanh.ToString();
+            MessageBox.Show(ChonMon.TenMon);
+            MessageBox.Show(ChonMon.GiaTien);
+            ChonMon.SoLuong = Convert.ToInt32(numericUpDown1.Value.ToString());
+            ChonMon.TrangThai = 1;
+            this.Close();
+        }
     }
 }

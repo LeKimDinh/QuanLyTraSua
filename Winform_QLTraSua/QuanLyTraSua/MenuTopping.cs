@@ -22,6 +22,8 @@ namespace QuanLyTraSua
             ChonMon2.GiaTien = label11.Text;
             ChonMon2.TenMon = label12.Text;
             ChonMon2 chonMon = new ChonMon2();
+           
+          
             chonMon.ShowDialog();
         }
 

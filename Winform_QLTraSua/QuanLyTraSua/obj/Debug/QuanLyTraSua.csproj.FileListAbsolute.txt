@@ -54,3 +54,4 @@ D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLy
 D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.ChonMon.resources
 D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.home3.resources
 D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.ChonMon2.resources
+D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.ChiTietHoaDon.resources

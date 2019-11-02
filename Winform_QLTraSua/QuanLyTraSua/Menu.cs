@@ -12,6 +12,9 @@ namespace QuanLyTraSua
 {
     public partial class Menu : Form
     {
+        public static string TenMon;
+        public static int GiaTien;
+        public static int SoLuong;
        
         public Menu()
         {
@@ -92,7 +95,21 @@ namespace QuanLyTraSua
         {
             menuTraXanh1.BringToFront();
             label1.Text = button1.Text;
-           
+            
+            
+            //for (int i = 0; i < dataGridView1.RowCount; i++)
+            //{
+            //    if (dataGridView1.Rows[i].Cells[0].Value == null)
+            //    {
+            //        dataGridView1.Rows[i].Cells[0].Value = "TraSua";
+            //    }
+            //    else
+            //    {
+            //        DataGridViewRow row = (DataGridViewRow)dataGridView1.Rows[i].Clone();
+            //        dataGridView1.Rows.Add(row);
+            //        dataGridView1.Rows[i].Cells[0].Value = "TraSua";
+            //    }
+            //}
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -161,6 +178,29 @@ namespace QuanLyTraSua
             side.Top = button8.Top;
             side.Height = button8.Height;
             label1.Text = button8.Text;
+        }
+        int TongTien = 0;
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {            
+            for (int i = 0; i < dataGridView1.Columns.Count; i++)
+            {
+                dataGridView1.Columns[i].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            }
+            if (ChonMon.TrangThai == 1)
+            {
+                dataGridView1.Rows.Add(ChonMon.TenMon, ChonMon.SoLuong, ChonMon.GiaTien);
+                MessageBox.Show(ChonMon.TenMon);
+                TongTien += Convert.ToInt32(ChonMon.GiaTien);
+                textBox1.Text = TongTien.ToString();
+            }
+            ChonMon.TrangThai = 0;
+            
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Clear();
+            textBox1.ResetText();
         }
     }
 }

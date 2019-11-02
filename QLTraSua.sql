@@ -86,6 +86,7 @@ Create table DetailsBill(
 			foreign key(BillID) references Bill on delete set null,
 			);
 go
+
 delete from DetailsBill;
 delete from Bill;
 delete from Area;
