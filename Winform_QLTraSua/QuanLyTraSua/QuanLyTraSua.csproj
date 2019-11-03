@@ -90,6 +90,30 @@
     <Compile Include="home3.Designer.cs">
       <DependentUpon>home3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Icon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Icon.Designer.cs">
+      <DependentUpon>Icon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Icon2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Icon2.Designer.cs">
+      <DependentUpon>Icon2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Icon3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Icon3.Designer.cs">
+      <DependentUpon>Icon3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Icon4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Icon4.Designer.cs">
+      <DependentUpon>Icon4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,6 +190,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="home3.resx">
       <DependentUpon>home3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icon.resx">
+      <DependentUpon>Icon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icon2.resx">
+      <DependentUpon>Icon2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icon3.resx">
+      <DependentUpon>Icon3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icon4.resx">
+      <DependentUpon>Icon4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>

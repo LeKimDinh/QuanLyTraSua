@@ -12,9 +12,7 @@ namespace QuanLyTraSua
 {
     public partial class Menu : Form
     {
-        public static string TenMon;
-        public static int GiaTien;
-        public static int SoLuong;
+       
        
         public Menu()
         {
@@ -180,16 +178,17 @@ namespace QuanLyTraSua
             label1.Text = button8.Text;
         }
         int TongTien = 0;
+
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {            
             for (int i = 0; i < dataGridView1.Columns.Count; i++)
             {
                 dataGridView1.Columns[i].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
             }
+            
             if (ChonMon.TrangThai == 1)
             {
-                dataGridView1.Rows.Add(ChonMon.TenMon, ChonMon.SoLuong, ChonMon.GiaTien);
-                MessageBox.Show(ChonMon.TenMon);
+                dataGridView1.Rows.Add(ChonMon.TenMon, ChonMon.SoLuong, ChonMon.GiaTien);               
                 TongTien += Convert.ToInt32(ChonMon.GiaTien);
                 textBox1.Text = TongTien.ToString();
             }
@@ -201,6 +200,18 @@ namespace QuanLyTraSua
         {
             dataGridView1.Rows.Clear();
             textBox1.ResetText();
+        }
+      
+        private void button9_Click(object sender, EventArgs e)
+        {
+            ChiTietHoaDon chiTietHoaDon = new ChiTietHoaDon(dataGridView1);
+            ChonMon.GiaTien = textBox1.Text;
+            chiTietHoaDon.ShowDialog();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

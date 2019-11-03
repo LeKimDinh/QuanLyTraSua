@@ -24,7 +24,7 @@ namespace QuanLyTraSua
         {
             home31.BringToFront();
             sidepanel.Location = new Point(button1.Location.X+3, button1.Location.Y+button1.Height);
-            
+            icon1.BringToFront();
         }
         private void button1_Click(object sender, EventArgs e)          
         {
@@ -76,14 +76,36 @@ namespace QuanLyTraSua
         int value = 0;
         private void HomeTime_Tick(object sender, EventArgs e)
         {
+            Random random = new Random();
+            
             value++;
-            if (value == 25)
+            if (value == 10)
+                icon1.BringToFront();
+            if (value == 20)
+            {
                 home11.BringToFront();
-            else if (value == 50)
+                icon21.BringToFront();
+            }
+            else if (value == 30)
+            {
                 home21.BringToFront();
-            else if (value == 75)
-            { home31.BringToFront(); value = 0; }
+                icon31.BringToFront();
+            }
+            else if (value == 40)
+            { home31.BringToFront();
+                icon41.BringToFront();
+                value = 0; 
+            }
+            
+                
+            
+                
+           
+                
+            label1.ForeColor = Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));
+            sidepanel.BackColor = Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));
 
+            
 
         }
 

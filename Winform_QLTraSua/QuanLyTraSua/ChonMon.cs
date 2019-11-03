@@ -665,7 +665,7 @@ namespace QuanLyTraSua
                 panel3.Controls.Add(lTextBox[lTextBox.Count - 1]);
                 panel3.Refresh();
                 panel3.Show();
-
+                ChonMon.TenMon += ", " + newTextBox.Text;
 
             }
         }
@@ -696,7 +696,7 @@ namespace QuanLyTraSua
                 panel3.Controls.Add(lTextBox[lTextBox.Count - 1]);
                 panel3.Refresh();
                 panel3.Show();
-
+                ChonMon.TenMon += ", " + newTextBox.Text;
 
             }
         }
@@ -727,7 +727,7 @@ namespace QuanLyTraSua
                 panel3.Controls.Add(lTextBox[lTextBox.Count - 1]);
                 panel3.Refresh();
                 panel3.Show();
-
+                ChonMon.TenMon += ", " + newTextBox.Text;
 
             }
         }
@@ -758,7 +758,7 @@ namespace QuanLyTraSua
                 panel3.Controls.Add(lTextBox[lTextBox.Count - 1]);
                 panel3.Refresh();
                 panel3.Show();
-
+                ChonMon.TenMon += ", " + newTextBox.Text;
 
             }
         }
@@ -789,7 +789,7 @@ namespace QuanLyTraSua
                 panel3.Controls.Add(lTextBox[lTextBox.Count - 1]);
                 panel3.Refresh();
                 panel3.Show();
-
+                ChonMon.TenMon += ", " + newTextBox.Text;
 
             }
         }
@@ -820,7 +820,7 @@ namespace QuanLyTraSua
                 panel3.Controls.Add(lTextBox[lTextBox.Count - 1]);
                 panel3.Refresh();
                 panel3.Show();
-
+                ChonMon.TenMon += ", " + newTextBox.Text;
 
             }
         }
@@ -851,7 +851,7 @@ namespace QuanLyTraSua
                 panel3.Controls.Add(lTextBox[lTextBox.Count - 1]);
                 panel3.Refresh();
                 panel3.Show();
-
+                ChonMon.TenMon += ", " + newTextBox.Text;
 
             }
         }
@@ -882,7 +882,7 @@ namespace QuanLyTraSua
                 panel3.Controls.Add(lTextBox[lTextBox.Count - 1]);
                 panel3.Refresh();
                 panel3.Show();
-
+                ChonMon.TenMon += ", " + newTextBox.Text;
 
             }
         }
@@ -914,7 +914,7 @@ namespace QuanLyTraSua
                 panel3.Refresh();
                 panel3.Show();
 
-
+                ChonMon.TenMon += ", " + newTextBox.Text;
             }
         }
 
