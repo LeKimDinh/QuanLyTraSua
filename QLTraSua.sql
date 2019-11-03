@@ -11,77 +11,57 @@ go
 use QLTraSua;
 go
 
-
 create table GroupEmployee(
-			GroupID		int,
-			NameGroup	nvarchar(20),
+			GroupID		int not null,
+			NameGroup	nvarchar(20) not null,
 			primary key (GroupID)
 			);
 create table Employeer(
-			EmployeerID		int,
+			EmployeerID		int not null,
 			GroupID			int,
-			AreaID			nvarchar(15),
-			FullName	nvarchar(50),
-			NumberPhone		int check (NumberPhone<11),		
+			FullName	nvarchar(50) not null,
+			NumberPhone		int check (NumberPhone<11) not null,		
 			primary key (EmployeerID),
 			foreign key (GroupID) references GroupEmployee on delete set null
 			);
 create table Timekeeping(
-			EmployeerID		int,
-			Salary			money,
-			SoCa			time,
+			EmployeerID		int not null,
+			Salary			money not null,
+			SoCa			time not null,
 			primary key (EmployeerID),
 			);
 Create table Account(
-			EmployeerID		int,
-			UserE			nvarchar(50),
-			PassE			nvarchar(50),
+			EmployeerID		int not null,
+			UserE			nvarchar(50) not null,
+			PassE			nvarchar(50) not null,
 			primary key (EmployeerID)
 			);
 Create table Category(
-			CategoryID		nvarchar(20),
-			NameCategory	nvarchar(20),
-			Recipe			nvarchar(20),
+			CategoryID		nvarchar(20) not null,
+			NameCategory	nvarchar(20) not null,
+			Recipe			nvarchar(20) not null,
 			primary key (CategoryID)
 			);
 create table Dinks(
-			DrinkID			int,
-			CategoryID		nvarchar(20),
-			Cost			money,
+			DrinkID			int not null,
+			CategoryID		nvarchar(20) not null,
+			Cost			money not null,
 			primary key(DrinkID),
 			foreign key (CategoryID) references Category on delete set null
 			);
-Create table TableD(
-			TableID			int,
-			DrinkID			int,
-			NumberCustomer	int,
-			Unit			int,
-			DrinkName		nvarchar(20),
-			primary key (TableID),
-			foreign key (DrinkID) references Dinks on delete set null
-			);
-Create table Area(
-			AreaID			nvarchar(15),
-			TableID			int,
-			NameArea		nvarchar(50),
-			primary key (AreaID),
-			foreign key (TableID) references TableD on delete set null
-			);
 Create table Bill(
-			EmployeerID		int,
-			TableID			int,
-			BillID			int,
-			TotalMoney		money,
+			EmployeerID		int not null,
+			BillID			int not null,
+			TotalMoney		money not null,
 			primary key (BillID),
 			foreign key(EmployeerID) references Employeer on delete set null,
-			foreign key(TableID	) references TableD	on delete set null		
 			);
 Create table DetailsBill(
-			BillID			int,
-			Number			int,
-			DinksName		nvarchar(20),
-			Coupons			int,
-			TotalMoney		money,
+			BillID			int not null,
+			Number			int not null,
+			DinksName		nvarchar(20) not null,
+			Coupons			int not null,
+			TotalMoney		money not null,
 			primary key (BillID),
 			foreign key(BillID) references Bill on delete set null,
 			);
@@ -89,8 +69,6 @@ go
 
 delete from DetailsBill;
 delete from Bill;
-delete from Area;
-delete from TableD;
 delete from Dinks;
 delete from Category;
 delete from Account;
@@ -153,10 +131,6 @@ insert into Dinks values('D1', 'C1', '30000');
 insert into Dinks values('D2', 'C2', '30000');
 insert into Dinks values('D3', 'C3', '40000');
 insert into Dinks values('D4', 'C4', '40000');
-insert into Area values('A','B1','tang tret');
-insert into Area values('A','B2','tang tret');
-insert into Area values('B','B8','lau 1');
-insert into Area values('C','B15','lau 2');
 insert into Bill values('17110104', 'B1', '01', '180000');
 insert into Bill values('17110104', 'B2', '02', '200000');
 insert into Bill values('17110109', 'B8', '03', '185000');
