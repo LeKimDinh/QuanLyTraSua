@@ -18,6 +18,7 @@ namespace QuanLyTraSua
         public List<TextBox> lTextBox;
         public static string TenMon = "";
         public static string GiaTien = "";
+        public static string Size = "";
         public int costsize;
         public int giathanh = 0;
         public string cost;
@@ -78,8 +79,8 @@ namespace QuanLyTraSua
                 }
 
             }
-            giathanh = Convert.ToInt32(cost.ToString()) * int.Parse(numericUpDown1.Value.ToString());
-            giathanh *= Convert.ToInt32(numericUpDown1.Value.ToString());
+            numericUpDown1.Value = 1;
+            giathanh = Convert.ToInt32(cost.ToString()) * int.Parse(numericUpDown1.Value.ToString());                       
             label5.Text = giathanh.ToString();
             for (int i = lTextBox.Count -1 ; i >= 2 ; i--)
             {
@@ -91,7 +92,7 @@ namespace QuanLyTraSua
             y = textBox2.Location.Y;
             panel3.Refresh();
         }
-
+        bool SML = false;
         private void button1_Click(object sender, EventArgs e)
         {
             button1.BackColor =  Color.FromArgb(81, 36, 103);
@@ -99,22 +100,32 @@ namespace QuanLyTraSua
             costsize = 10000* Convert.ToInt32(numericUpDown1.Value.ToString()); 
             button2.BackColor = Color.Gainsboro;
             button2.ForeColor = Color.Black;
-            giathanh -= costsize;
-            label5.Text = giathanh.ToString();
+            if (SML == true)
+            {
+                giathanh -= costsize;
+                label5.Text = giathanh.ToString();
+                SML = false;
+            }
             ChonMon.GiaTien = giathanh.ToString();
+            ChonMon.Size = "M";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
             button2.BackColor = Color.FromArgb(81, 36, 103);
             button2.ForeColor = Color.White;
             costsize = 10000 * Convert.ToInt32(numericUpDown1.Value.ToString());
             button1.BackColor = Color.Gainsboro;
             button1.ForeColor = Color.Black;
-            giathanh += costsize;
-            label5.Text = giathanh.ToString();
+            if (SML == false)
+            {
+                giathanh += costsize;
+                label5.Text = giathanh.ToString();
+                SML = true;
+            }
             ChonMon.GiaTien = giathanh.ToString();
-
+            ChonMon.Size = "L";
         }
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)

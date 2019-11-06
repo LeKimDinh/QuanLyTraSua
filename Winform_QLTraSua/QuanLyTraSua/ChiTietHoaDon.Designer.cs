@@ -47,6 +47,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel3.SuspendLayout();
@@ -123,11 +124,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Palatino Linotype", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(43, 540);
+            this.label3.Location = new System.Drawing.Point(120, 540);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(277, 44);
+            this.label3.Size = new System.Drawing.Size(185, 44);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Tổng thanh toán: ";
+            this.label3.Text = "Tổng cộng: ";
             // 
             // label2
             // 
@@ -146,7 +147,8 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
-            this.Column3});
+            this.Column3,
+            this.Column4});
             this.dataGridView1.Location = new System.Drawing.Point(25, 234);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
@@ -244,6 +246,13 @@
             this.button2.Text = "Mua đơn hàng";
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Size";
+            this.Column4.MinimumWidth = 6;
+            this.Column4.Name = "Column4";
+            this.Column4.Width = 125;
+            // 
             // ChiTietHoaDon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -287,5 +296,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
     }
 }

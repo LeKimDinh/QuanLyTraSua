@@ -49,20 +49,18 @@ namespace QuanLyTraSua
         private void button4_Click(object sender, EventArgs e)
         {
             sidepanel.Location = new Point(button4.Location.X+3, button4.Location.Y + button4.Height);
-
+            HoaDon hoaDon = new HoaDon();
+            hoaDon.ShowDialog();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             sidepanel.Location = new Point(button5.Location.X+3, button5.Location.Y + button5.Height);
-
+            KhachHang khachHang = new KhachHang();
+            khachHang.ShowDialog();
         }
 
-        private void button6_Click(object sender, EventArgs e)
-        {
-            sidepanel.Location = new Point(button6.Location.X+3, button6.Location.Y + button6.Height);
-
-        }
+       
 
         private void rdHome1_CheckedChanged(object sender, EventArgs e)
         {
@@ -81,10 +79,12 @@ namespace QuanLyTraSua
             value++;
             if (value == 10)
                 icon1.BringToFront();
+           
             if (value == 20)
             {
                 home11.BringToFront();
                 icon21.BringToFront();
+                label1.Text = "Xếp hàng chờ đợi đã lâu !!!";
             }
             else if (value == 30)
             {
@@ -94,14 +94,15 @@ namespace QuanLyTraSua
             else if (value == 40)
             { home31.BringToFront();
                 icon41.BringToFront();
+                label1.Text = "Chờ ly trà sữa, chờ câu ân tình :))";
                 value = 0; 
             }
-            
+
+
+
                 
-            
-                
-           
-                
+
+
             label1.ForeColor = Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));
             sidepanel.BackColor = Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));
 

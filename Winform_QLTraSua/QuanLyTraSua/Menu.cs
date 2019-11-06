@@ -27,27 +27,45 @@ namespace QuanLyTraSua
             side.Top = button1.Top;
             side.Height = button1.Height;
             menuTraXanh1.BringToFront();
-            button1.BackColor = Color.FromArgb(81, 36, 103);           
+            button1.BackColor = Color.FromArgb(81, 36, 103);
+            button1.ForeColor = Color.White;
+            button1.ForeColor = Color.Black;
             button2.BackColor = Color.Silver;
+            button2.ForeColor = Color.Black;
             button3.BackColor = Color.Silver;
+            button3.ForeColor = Color.Black;
             button4.BackColor = Color.Silver;
+            button4.ForeColor = Color.Black;
             button5.BackColor = Color.Silver;
+            button5.ForeColor = Color.Black;
             button6.BackColor = Color.Silver;
+            button6.ForeColor = Color.Black;
             button7.BackColor = Color.Silver;
+            button7.ForeColor = Color.Black;
             button8.BackColor = Color.Silver;
+            button8.ForeColor = Color.Black;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             
             button2.BackColor = Color.FromArgb(81, 36, 103);
+            button2.ForeColor = Color.White;
             button1.BackColor = Color.Silver;
+            button1.ForeColor = Color.Black;
             button3.BackColor = Color.Silver;
+            button3.ForeColor = Color.Black;
             button4.BackColor = Color.Silver;
+            button4.ForeColor = Color.Black;
             button5.BackColor = Color.Silver;
+            button5.ForeColor = Color.Black;
             button6.BackColor = Color.Silver;
+            button6.ForeColor = Color.Black;
             button7.BackColor = Color.Silver;
+            button7.ForeColor = Color.Black;
             button8.BackColor = Color.Silver;
+            button8.ForeColor = Color.Black;
+
 
             menuCombo1.BringToFront();
             side.Top = button2.Top;
@@ -58,13 +76,21 @@ namespace QuanLyTraSua
         private void button3_Click(object sender, EventArgs e)
         {
             button3.BackColor = Color.FromArgb(81, 36, 103);
+            button3.ForeColor = Color.White;
             button1.BackColor = Color.Silver;
+            button1.ForeColor = Color.Black;
             button2.BackColor = Color.Silver;
+            button2.ForeColor = Color.Black;
             button4.BackColor = Color.Silver;
+            button4.ForeColor = Color.Black;
             button5.BackColor = Color.Silver;
+            button5.ForeColor = Color.Black;
             button6.BackColor = Color.Silver;
+            button6.ForeColor = Color.Black;
             button7.BackColor = Color.Silver;
+            button7.ForeColor = Color.Black;
             button8.BackColor = Color.Silver;
+            button8.ForeColor = Color.Black;
 
             menuTraKhong_Sua1.BringToFront();
             side.Top = button3.Top;
@@ -75,13 +101,21 @@ namespace QuanLyTraSua
         private void button4_Click(object sender, EventArgs e)
         {
             button4.BackColor = Color.FromArgb(81, 36, 103);
+            button4.ForeColor = Color.White;
             button1.BackColor = Color.Silver;
+            button1.ForeColor = Color.Black;
             button2.BackColor = Color.Silver;
+            button2.ForeColor = Color.Black;
             button3.BackColor = Color.Silver;
+            button3.ForeColor = Color.Black;
             button5.BackColor = Color.Silver;
+            button5.ForeColor = Color.Black;
             button6.BackColor = Color.Silver;
+            button6.ForeColor = Color.Black;
             button7.BackColor = Color.Silver;
+            button7.ForeColor = Color.Black;
             button8.BackColor = Color.Silver;
+            button8.ForeColor = Color.Black;
 
             menuSuaTuoiNguyenChat1.BringToFront();
             side.Top = button4.Top;
@@ -113,13 +147,21 @@ namespace QuanLyTraSua
         private void button5_Click(object sender, EventArgs e)
         {
             button5.BackColor = Color.FromArgb(81, 36, 103);
+            button5.ForeColor = Color.White;
             button1.BackColor = Color.Silver;
+            button1.ForeColor = Color.Black;
             button2.BackColor = Color.Silver;
+            button2.ForeColor = Color.Black;
             button3.BackColor = Color.Silver;
+            button3.ForeColor = Color.Black;
             button4.BackColor = Color.Silver;
+            button4.ForeColor = Color.Black;
             button6.BackColor = Color.Silver;
+            button6.ForeColor = Color.Black;
             button7.BackColor = Color.Silver;
+            button7.ForeColor = Color.Black;
             button8.BackColor = Color.Silver;
+            button8.ForeColor = Color.Black;
 
             menuTopping1.BringToFront();
             side.Top = button5.Top;
@@ -130,13 +172,21 @@ namespace QuanLyTraSua
         private void button6_Click(object sender, EventArgs e)
         {
             button6.BackColor = Color.FromArgb(81, 36, 103);
+            button6.ForeColor = Color.White;
             button1.BackColor = Color.Silver;
+            button1.ForeColor = Color.Black;
             button2.BackColor = Color.Silver;
+            button2.ForeColor = Color.Black;
             button3.BackColor = Color.Silver;
+            button3.ForeColor = Color.Black;
             button4.BackColor = Color.Silver;
+            button4.ForeColor = Color.Black;
             button5.BackColor = Color.Silver;
+            button5.ForeColor = Color.Black;
             button7.BackColor = Color.Silver;
+            button7.ForeColor = Color.Black;
             button8.BackColor = Color.Silver;
+            button8.ForeColor = Color.Black;
 
             menuXienQue1.BringToFront();
             side.Top = button6.Top;
@@ -147,13 +197,21 @@ namespace QuanLyTraSua
         private void button7_Click(object sender, EventArgs e)
         {
             button7.BackColor = Color.FromArgb(81, 36, 103);
+            button7.ForeColor = Color.White;
             button1.BackColor = Color.Silver;
+            button1.ForeColor = Color.Black;
             button2.BackColor = Color.Silver;
+            button2.ForeColor = Color.Black;
             button3.BackColor = Color.Silver;
+            button3.ForeColor = Color.Black;
             button4.BackColor = Color.Silver;
+            button4.ForeColor = Color.Black;
             button5.BackColor = Color.Silver;
+            button5.ForeColor = Color.Black;
             button6.BackColor = Color.Silver;
+            button6.ForeColor = Color.Black;
             button8.BackColor = Color.Silver;
+            button8.ForeColor = Color.Black;
 
             menuThucAn1.BringToFront();
             side.Top = button7.Top;
@@ -164,13 +222,21 @@ namespace QuanLyTraSua
         private void button8_Click(object sender, EventArgs e)
         {
             button8.BackColor = Color.FromArgb(81, 36, 103);
+            button8.ForeColor = Color.White;
             button1.BackColor = Color.Silver;
+            button1.ForeColor = Color.Black;
             button2.BackColor = Color.Silver;
+            button2.ForeColor = Color.Black;
             button3.BackColor = Color.Silver;
+            button3.ForeColor = Color.Black;
             button4.BackColor = Color.Silver;
+            button4.ForeColor = Color.Black;
             button5.BackColor = Color.Silver;
+            button5.ForeColor = Color.Black;
             button6.BackColor = Color.Silver;
+            button6.ForeColor = Color.Black;
             button7.BackColor = Color.Silver;
+            button7.ForeColor = Color.Black;
 
             menuComboTietKiem1.BringToFront();
             side.Top = button8.Top;
@@ -188,7 +254,7 @@ namespace QuanLyTraSua
             
             if (ChonMon.TrangThai == 1)
             {
-                dataGridView1.Rows.Add(ChonMon.TenMon, ChonMon.SoLuong, ChonMon.GiaTien);               
+                dataGridView1.Rows.Add(ChonMon.TenMon, ChonMon.SoLuong, ChonMon.GiaTien,ChonMon.Size);               
                 TongTien += Convert.ToInt32(ChonMon.GiaTien);
                 textBox1.Text = TongTien.ToString();
             }

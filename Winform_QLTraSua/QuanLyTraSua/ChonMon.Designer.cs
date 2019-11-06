@@ -144,6 +144,11 @@
             this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown1.Location = new System.Drawing.Point(416, 116);
             this.numericUpDown1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.numericUpDown1.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.numericUpDown1.Size = new System.Drawing.Size(59, 27);
@@ -477,7 +482,7 @@
             this.button23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button23.Image = ((System.Drawing.Image)(resources.GetObject("button23.Image")));
             this.button23.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button23.Location = new System.Drawing.Point(833, 6);
+            this.button23.Location = new System.Drawing.Point(833, 7);
             this.button23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(231, 94);
@@ -493,7 +498,7 @@
             this.button22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button22.Image = ((System.Drawing.Image)(resources.GetObject("button22.Image")));
             this.button22.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button22.Location = new System.Drawing.Point(555, 5);
+            this.button22.Location = new System.Drawing.Point(555, 7);
             this.button22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(231, 94);
@@ -525,7 +530,7 @@
             this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button20.Image = ((System.Drawing.Image)(resources.GetObject("button20.Image")));
             this.button20.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button20.Location = new System.Drawing.Point(3, 6);
+            this.button20.Location = new System.Drawing.Point(3, 7);
             this.button20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(231, 94);
@@ -573,7 +578,7 @@
             this.button30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button30.Image = ((System.Drawing.Image)(resources.GetObject("button30.Image")));
             this.button30.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button30.Location = new System.Drawing.Point(571, 9);
+            this.button30.Location = new System.Drawing.Point(571, 7);
             this.button30.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(231, 94);
@@ -589,7 +594,7 @@
             this.button28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button28.Image = ((System.Drawing.Image)(resources.GetObject("button28.Image")));
             this.button28.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button28.Location = new System.Drawing.Point(847, 9);
+            this.button28.Location = new System.Drawing.Point(847, 7);
             this.button28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(231, 94);
@@ -654,7 +659,7 @@
             this.button36.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button36.Image = ((System.Drawing.Image)(resources.GetObject("button36.Image")));
             this.button36.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button36.Location = new System.Drawing.Point(1121, 5);
+            this.button36.Location = new System.Drawing.Point(1121, 7);
             this.button36.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button36.Name = "button36";
             this.button36.Size = new System.Drawing.Size(231, 94);
@@ -671,7 +676,7 @@
             this.button35.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button35.Image = ((System.Drawing.Image)(resources.GetObject("button35.Image")));
             this.button35.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button35.Location = new System.Drawing.Point(861, 7);
+            this.button35.Location = new System.Drawing.Point(852, 7);
             this.button35.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button35.Name = "button35";
             this.button35.Size = new System.Drawing.Size(231, 94);
@@ -688,7 +693,7 @@
             this.button34.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button34.Image = ((System.Drawing.Image)(resources.GetObject("button34.Image")));
             this.button34.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button34.Location = new System.Drawing.Point(579, 6);
+            this.button34.Location = new System.Drawing.Point(569, 7);
             this.button34.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(231, 94);
@@ -705,7 +710,7 @@
             this.button33.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button33.Image = ((System.Drawing.Image)(resources.GetObject("button33.Image")));
             this.button33.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button33.Location = new System.Drawing.Point(287, 6);
+            this.button33.Location = new System.Drawing.Point(287, 7);
             this.button33.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(231, 94);

@@ -21,6 +21,7 @@ namespace QuanLyTraSua
         {
             ChonMon.GiaTien = label11.Text;
             ChonMon.TenMon = label12.Text;
+            ChonMon.Size = "M";
             ChonMon chonMon = new ChonMon();
             chonMon.ShowDialog();
         }
@@ -29,6 +30,7 @@ namespace QuanLyTraSua
         {
             ChonMon.GiaTien = label7.Text;
             ChonMon.TenMon = label8.Text;
+            ChonMon.Size = "M";
             ChonMon chonMon = new ChonMon();
             chonMon.ShowDialog();
         }
@@ -37,6 +39,7 @@ namespace QuanLyTraSua
         {
             ChonMon.GiaTien = label1.Text;
             ChonMon.TenMon = label2.Text;
+            ChonMon.Size = "M";
             ChonMon chonMon = new ChonMon();
             chonMon.ShowDialog();
         }
@@ -45,6 +48,7 @@ namespace QuanLyTraSua
         {
             ChonMon.GiaTien = label3.Text;
             ChonMon.TenMon = label4.Text;
+            ChonMon.Size = "M";
             ChonMon chonMon = new ChonMon();
             chonMon.ShowDialog();
         }

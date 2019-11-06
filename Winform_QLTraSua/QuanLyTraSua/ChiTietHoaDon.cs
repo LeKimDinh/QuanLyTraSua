@@ -31,10 +31,11 @@ namespace QuanLyTraSua
             {
                 dataGridView1.Columns[i].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
             }
-            for (int i = 0; i < data.Rows.Count-1; i++)
+            for (int i = 0; i < data.Rows.Count - 1; i++)
             {
-                dataGridView1.Rows.Add(data.Rows[i].Cells[0].Value, data.Rows[i].Cells[1].Value, data.Rows[i].Cells[2].Value);
+                dataGridView1.Rows.Add(data.Rows[i].Cells[0].Value, data.Rows[i].Cells[1].Value, data.Rows[i].Cells[2].Value, data.Rows[i].Cells[3].Value);
             }
+            dataGridView1.Refresh();
             label4.Text = ChonMon.GiaTien + " VND";
         }
     }
