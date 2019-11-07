@@ -7,8 +7,6 @@ create database QLTraSua;
 go
 use QLTraSua;
 go
-
-
 create table GroupStaff(
 
 			GroupID		int not null,
@@ -69,16 +67,15 @@ create table Discount(
 			foreign key(PhoneNumber) references Customer on delete set null);
 go
 
-
->>>>>>> 50ffd92838bded689b8cc67e272ba25d376caafc
 delete from Bill;
 delete from Drink;
 delete from Category;
 delete from Account;
 delete from Timekeeping;
 delete from Staff;
-delete from Account;
 delete from GroupStaff;
+delete from Discount;
+delete from Customer;
 go
 
 insert into GroupStaff values('001', 'service');

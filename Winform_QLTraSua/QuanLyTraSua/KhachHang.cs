@@ -33,5 +33,15 @@ namespace QuanLyTraSua
                 panel4.BackColor = Color.FromArgb(rd.Next(0, 255), rd.Next(0, 255), rd.Next(0, 255));
             }
         }
+
+        private void KhachHang_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox8_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
