@@ -25,9 +25,13 @@ namespace QuanLyTraSua
             Random rd = new Random();
             if (value % 2 == 0)
             {
-                panel2.BackColor = Color.FromArgb(rd.Next(0, 255), rd.Next(0, 255), rd.Next(0, 255));
+                panel3.BackColor = Color.FromArgb(rd.Next(0, 255), rd.Next(0, 255), rd.Next(0, 255));
             }
-
+            panel2.BackColor = Color.FromArgb(rd.Next(0, 255), rd.Next(0, 255), rd.Next(0, 255));
+            if (value % 3 == 0)
+            {
+                panel4.BackColor = Color.FromArgb(rd.Next(0, 255), rd.Next(0, 255), rd.Next(0, 255));
+            }
         }
     }
 }

@@ -104,7 +104,6 @@ namespace QuanLyTraSua
 
 
             label1.ForeColor = Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));
-            sidepanel.BackColor = Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));
 
             
 

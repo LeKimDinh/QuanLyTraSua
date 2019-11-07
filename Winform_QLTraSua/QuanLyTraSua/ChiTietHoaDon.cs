@@ -38,5 +38,24 @@ namespace QuanLyTraSua
             dataGridView1.Refresh();
             label4.Text = ChonMon.GiaTien + " VND";
         }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            LayGiamGia layGiamGia = new LayGiamGia();
+            layGiamGia.ShowDialog();
+            label7.Text = LayGiamGia.giamgia;
+            string x = label7.Text;
+            x = x.Remove(x.Length - 1, 1);
+            MessageBox.Show(x);
+            int tinhtoan = Convert.ToInt32(x);
+            int TongTien = 0;
+            TongTien = (Convert.ToInt32(ChonMon.GiaTien.ToString()) * tinhtoan) / 100;
+            label4.Text = TongTien.ToString()+" VNĐ";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

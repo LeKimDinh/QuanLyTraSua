@@ -1,16 +1,12 @@
 use master;
 go
-
 if DB_ID('QLTraSua') is not null
 	drop database QLTraSua;
 go
-
 create database QLTraSua;
 go
-
 use QLTraSua;
 go
-
 create table GroupEmployee(
 			GroupID		int not null,
 			NameGroup	nvarchar(20) not null,
@@ -56,18 +52,9 @@ Create table Bill(
 			primary key (BillID),
 			foreign key(EmployeerID) references Employeer on delete set null,
 			);
-Create table DetailsBill(
-			BillID			int not null,
-			Number			int not null,
-			DinksName		nvarchar(20) not null,
-			Coupons			int not null,
-			TotalMoney		money not null,
-			primary key (BillID),
-			foreign key(BillID) references Bill on delete set null,
-			);
-go
 
-delete from DetailsBill;
+
+
 delete from Bill;
 delete from Dinks;
 delete from Category;
@@ -135,9 +122,6 @@ insert into Bill values('17110104', 'B1', '01', '180000');
 insert into Bill values('17110104', 'B2', '02', '200000');
 insert into Bill values('17110109', 'B8', '03', '185000');
 insert into Bill values('17110114', 'B15', '04', '160000');
-insert into DetailsBill values('01', '6', 'Tra sua', '0', '180000');
-insert into DetailsBill values('02', '7', 'Tra', '0', '200000');
-insert into DetailsBill values('03', '6', 'Tra sua', '0', '185000');
-insert into DetailsBill values('04', '4', 'Latte', '0', '160000');
+
 
 
