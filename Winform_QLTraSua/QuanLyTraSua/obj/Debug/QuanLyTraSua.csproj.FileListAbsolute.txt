@@ -62,3 +62,35 @@ D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLy
 D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.HoaDon.resources
 D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.KhachHang.resources
 D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.LayGiamGia.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\bin\Debug\QuanLyTraSua.exe.config
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\bin\Debug\QuanLyTraSua.exe
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\bin\Debug\QuanLyTraSua.pdb
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.csprojAssemblyReference.cache
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.ChiTietHoaDon.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.ChonMon.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.ChonMon2.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Form1.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.HoaDon.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Home1.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Home2.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.home3.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Icon.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Icon2.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Icon3.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Icon4.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.KhachHang.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.LayGiamGia.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Menu.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.MenuCombo.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.MenuComboTietKiem.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.MenuSuaTuoiNguyenChat.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.MenuThucAn.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.MenuTopping.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.MenuTraKhong_Sua.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.MenuTraXanh.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.MenuXienQue.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Properties.Resources.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.csproj.GenerateResource.cache
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.csproj.CoreCompileInputs.cache
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.exe
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.pdb
