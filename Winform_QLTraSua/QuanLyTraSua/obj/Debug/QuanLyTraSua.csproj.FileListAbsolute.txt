@@ -93,3 +93,5 @@ D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua
 D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.csproj.GenerateResource.cache
 D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.exe
 D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.pdb
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Login.resources
+D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Staff.resources

@@ -33,8 +33,10 @@ namespace QuanLyTraSua
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            sidepanel.Location = new Point(button2.Location.X+3, button2.Location.Y+button2.Height);
-           
+            sidepanel.Location = new Point(button2.Location.X + 3, button2.Location.Y + button2.Height);
+            Login login = new Login();
+            login.ShowDialog();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
