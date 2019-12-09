@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyTraSua.BSLayer;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,7 +13,7 @@ namespace QuanLyTraSua
 {
     public partial class Form1 : Form
     {
-        
+        public static int trangthaidangnhap = 1;
         public Form1()
         {
             InitializeComponent();
@@ -22,28 +23,62 @@ namespace QuanLyTraSua
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            if(Form1.trangthaidangnhap == 2)
+            {
+                button2.Text = "Staff";
+            }
+            else
+            {
+                button2.Text = "LogIn";
+            }
             home31.BringToFront();
             sidepanel.Location = new Point(button1.Location.X+3, button1.Location.Y+button1.Height);
             icon1.BringToFront();
+            Drinks drinks = new Drinks();
+            drinks.XoaRestoreThucAn();
         }
         private void button1_Click(object sender, EventArgs e)          
         {
             home21.BringToFront();
             sidepanel.Location = new Point(button1.Location.X+3, button1.Location.Y + button1.Height);
+            Category category = new Category();
+            category.ShowDialog();
         }
+        public static bool DangNhap = false;
         private void button2_Click(object sender, EventArgs e)
         {
-            sidepanel.Location = new Point(button2.Location.X+3, button2.Location.Y+button2.Height);
-           
+            sidepanel.Location = new Point(button2.Location.X + 3, button2.Location.Y + button2.Height);
+
+            if (Form1.trangthaidangnhap == 1)
+            {
+                Login login = new Login();
+                login.ShowDialog();
+                button2.Text = "Staff";
+            }
+            else if(Form1.trangthaidangnhap ==2)
+            {
+                Staff staff = new Staff();
+                staff.ShowDialog();
+
+            }
+            else if(Form1.trangthaidangnhap == 3)
+            {
+                button2.Text = "LogIn";
+                Form1.trangthaidangnhap = 1;
+            }
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            sidepanel.Location = new Point(button3.Location.X+3, button3.Location.Y + button3.Height);
-            Menu menu = new Menu();
-            menu.ShowDialog();
-            
 
+            try
+            {
+                sidepanel.Location = new Point(button3.Location.X + 3, button3.Location.Y + button3.Height);
+                Menu menu = new Menu();
+                menu.ShowDialog();
+            }
+            catch { }            
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -59,9 +94,7 @@ namespace QuanLyTraSua
             KhachHang khachHang = new KhachHang();
             khachHang.ShowDialog();
         }
-
        
-
         private void rdHome1_CheckedChanged(object sender, EventArgs e)
         {
             home11.BringToFront();
@@ -96,22 +129,16 @@ namespace QuanLyTraSua
                 icon41.BringToFront();
                 label1.Text = "Chờ ly trà sữa, chờ câu ân tình :))";
                 value = 0; 
-            }
-
-
-
-                
-
-
-            label1.ForeColor = Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));
-
-            
-
+            }             
+            label1.ForeColor = Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));            
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             home31.BringToFront();
         }
+
+       
     }
 }
+     

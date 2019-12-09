@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyTraSua.BSLayer;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,7 +17,9 @@ namespace QuanLyTraSua
        
         public Menu()
         {
-            InitializeComponent();
+
+                InitializeComponent();
+           
             
         }
        
@@ -26,7 +29,7 @@ namespace QuanLyTraSua
             label1.Text = button1.Text;
             side.Top = button1.Top;
             side.Height = button1.Height;
-            menuTraXanh1.BringToFront();
+            menu_TraXanh1.BringToFront();
             button1.BackColor = Color.FromArgb(81, 36, 103);
             button1.ForeColor = Color.White;
             button1.ForeColor = Color.Black;
@@ -67,7 +70,7 @@ namespace QuanLyTraSua
             button8.ForeColor = Color.Black;
 
 
-            menuCombo1.BringToFront();
+            menu_ComBo1.BringToFront();
             side.Top = button2.Top;
             side.Height = button2.Height;
             label1.Text = button2.Text;
@@ -92,7 +95,7 @@ namespace QuanLyTraSua
             button8.BackColor = Color.Silver;
             button8.ForeColor = Color.Black;
 
-            menuTraKhong_Sua1.BringToFront();
+            menu_TraKhongSua1.BringToFront();
             side.Top = button3.Top;
             side.Height = button3.Height;
             label1.Text = button3.Text;
@@ -117,7 +120,7 @@ namespace QuanLyTraSua
             button8.BackColor = Color.Silver;
             button8.ForeColor = Color.Black;
 
-            menuSuaTuoiNguyenChat1.BringToFront();
+            menu_SuaTuoiNguyenChat1.BringToFront();
             side.Top = button4.Top;
             side.Height = button4.Height;
             label1.Text = button4.Text;
@@ -125,23 +128,11 @@ namespace QuanLyTraSua
 
         private void Menu_Load(object sender, EventArgs e)
         {
-            menuTraXanh1.BringToFront();
-            label1.Text = button1.Text;
-            
-            
-            //for (int i = 0; i < dataGridView1.RowCount; i++)
-            //{
-            //    if (dataGridView1.Rows[i].Cells[0].Value == null)
-            //    {
-            //        dataGridView1.Rows[i].Cells[0].Value = "TraSua";
-            //    }
-            //    else
-            //    {
-            //        DataGridViewRow row = (DataGridViewRow)dataGridView1.Rows[i].Clone();
-            //        dataGridView1.Rows.Add(row);
-            //        dataGridView1.Rows[i].Cells[0].Value = "TraSua";
-            //    }
-            //}
+          
+                label1.Text = button1.Text;
+                menu_TraXanh1.BringToFront();
+
+         
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -163,7 +154,7 @@ namespace QuanLyTraSua
             button8.BackColor = Color.Silver;
             button8.ForeColor = Color.Black;
 
-            menuTopping1.BringToFront();
+            menu_Topping1.BringToFront();
             side.Top = button5.Top;
             side.Height = button5.Height;
             label1.Text = button5.Text;
@@ -188,7 +179,7 @@ namespace QuanLyTraSua
             button8.BackColor = Color.Silver;
             button8.ForeColor = Color.Black;
 
-            menuXienQue1.BringToFront();
+            menu_XienQue1.BringToFront();
             side.Top = button6.Top;
             side.Height = button6.Height;
             label1.Text = button6.Text;
@@ -213,7 +204,7 @@ namespace QuanLyTraSua
             button8.BackColor = Color.Silver;
             button8.ForeColor = Color.Black;
 
-            menuThucAn1.BringToFront();
+            menu_ThucAn1.BringToFront();
             side.Top = button7.Top;
             side.Height = button7.Height;
             label1.Text = button7.Text;
@@ -238,7 +229,7 @@ namespace QuanLyTraSua
             button7.BackColor = Color.Silver;
             button7.ForeColor = Color.Black;
 
-            menuComboTietKiem1.BringToFront();
+            menu_ComBo_TietKiem1.BringToFront();
             side.Top = button8.Top;
             side.Height = button8.Height;
             label1.Text = button8.Text;
@@ -258,6 +249,7 @@ namespace QuanLyTraSua
                 TongTien += Convert.ToInt32(ChonMon.GiaTien);
                 textBox1.Text = TongTien.ToString();
             }
+            
             ChonMon.TrangThai = 0;
             
         }
@@ -279,5 +271,23 @@ namespace QuanLyTraSua
         {
 
         }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+           
+                for (int i = 0; i < dataGridView1.Rows.Count; i++)
+                {
+                    if (dataGridView1.Rows[i].Cells[0].Value.ToString() == dataGridView1.CurrentRow.Cells[0].Value.ToString())
+                        dataGridView1.Rows.RemoveAt(i);
+                }
+           
+        }
+
+      
     }
 }

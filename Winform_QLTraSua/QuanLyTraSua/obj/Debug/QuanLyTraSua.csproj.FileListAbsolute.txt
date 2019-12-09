@@ -39,14 +39,6 @@ D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLy
 D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Home1.resources
 D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Home2.resources
 D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Menu.resources
-D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.MenuCombo.resources
-D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.MenuComboTietKiem.resources
-D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.MenuSuaTuoiNguyenChat.resources
-D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.MenuThucAn.resources
-D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.MenuTopping.resources
-D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.MenuTraKhong_Sua.resources
-D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.MenuTraXanh.resources
-D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.MenuXienQue.resources
 D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Properties.Resources.resources
 D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.csproj.GenerateResource.cache
 D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.exe
@@ -94,3 +86,16 @@ D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua
 D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.csproj.CoreCompileInputs.cache
 D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.exe
 D:\QuanTriCoSoDuLieu\Quanlyquantrasua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.pdb
+D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Menu_ComBo.resources
+D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Menu_ComBo_TietKiem.resources
+D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Menu_SuaTuoiNguyenChat.resources
+D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Menu_ThucAn.resources
+D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Menu_Topping.resources
+D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Menu_TraKhongSua.resources
+D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Menu_TraXanh.resources
+D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Menu_XienQue.resources
+D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Category.resources
+D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Login.resources
+D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Register.resources
+D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Changepassword.resources
+D:\Học Kỳ 1 Năm 3\HQTCSDL\QuanLyTraSua\QuanLyTraSua\Winform_QLTraSua\QuanLyTraSua\obj\Debug\QuanLyTraSua.Staff.resources

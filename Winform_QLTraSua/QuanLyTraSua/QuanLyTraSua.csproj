@@ -48,6 +48,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BSLayer\Bill.cs" />
+    <Compile Include="BSLayer\Category.cs" />
+    <Compile Include="BSLayer\Customer.cs" />
+    <Compile Include="BSLayer\Discount.cs" />
+    <Compile Include="BSLayer\Drink.cs" />
+    <Compile Include="Category.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Category.Designer.cs">
+      <DependentUpon>Category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Changepassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Changepassword.Designer.cs">
+      <DependentUpon>Changepassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChiTietHoaDon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +83,7 @@
     <Compile Include="ChonMon2.Designer.cs">
       <DependentUpon>ChonMon2.cs</DependentUpon>
     </Compile>
+    <Compile Include="DSLayer\DBMain.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,62 +150,87 @@
     <Compile Include="LayGiamGia.Designer.cs">
       <DependentUpon>LayGiamGia.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuCombo.cs">
+    <Compile Include="Menu_ComBo.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="MenuCombo.Designer.cs">
-      <DependentUpon>MenuCombo.cs</DependentUpon>
+    <Compile Include="Menu_ComBo.Designer.cs">
+      <DependentUpon>Menu_ComBo.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuComboTietKiem.cs">
+    <Compile Include="Menu_ComBo_TietKiem.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="MenuComboTietKiem.Designer.cs">
-      <DependentUpon>MenuComboTietKiem.cs</DependentUpon>
+    <Compile Include="Menu_ComBo_TietKiem.Designer.cs">
+      <DependentUpon>Menu_ComBo_TietKiem.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuSuaTuoiNguyenChat.cs">
+    <Compile Include="Menu_SuaTuoiNguyenChat.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="MenuSuaTuoiNguyenChat.Designer.cs">
-      <DependentUpon>MenuSuaTuoiNguyenChat.cs</DependentUpon>
+    <Compile Include="Menu_SuaTuoiNguyenChat.Designer.cs">
+      <DependentUpon>Menu_SuaTuoiNguyenChat.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuThucAn.cs">
+    <Compile Include="Menu_ThucAn.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="MenuThucAn.Designer.cs">
-      <DependentUpon>MenuThucAn.cs</DependentUpon>
+    <Compile Include="Menu_ThucAn.Designer.cs">
+      <DependentUpon>Menu_ThucAn.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuTopping.cs">
+    <Compile Include="Menu_Topping.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="MenuTopping.Designer.cs">
-      <DependentUpon>MenuTopping.cs</DependentUpon>
+    <Compile Include="Menu_Topping.Designer.cs">
+      <DependentUpon>Menu_Topping.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuTraKhong Sua.cs">
+    <Compile Include="Menu_TraKhongSua.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="MenuTraKhong Sua.Designer.cs">
-      <DependentUpon>MenuTraKhong Sua.cs</DependentUpon>
+    <Compile Include="Menu_TraKhongSua.Designer.cs">
+      <DependentUpon>Menu_TraKhongSua.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuTraXanh.cs">
+    <Compile Include="Menu_TraXanh.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="MenuTraXanh.Designer.cs">
-      <DependentUpon>MenuTraXanh.cs</DependentUpon>
+    <Compile Include="Menu_TraXanh.Designer.cs">
+      <DependentUpon>Menu_TraXanh.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuXienQue.cs">
+    <Compile Include="Menu_XienQue.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="MenuXienQue.Designer.cs">
-      <DependentUpon>MenuXienQue.cs</DependentUpon>
+    <Compile Include="Menu_XienQue.Designer.cs">
+      <DependentUpon>Menu_XienQue.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sqlException.cs" />
+    <Compile Include="Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff.Designer.cs">
+      <DependentUpon>Staff.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Category.resx">
+      <DependentUpon>Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Changepassword.resx">
+      <DependentUpon>Changepassword.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChiTietHoaDon.resx">
       <DependentUpon>ChiTietHoaDon.cs</DependentUpon>
     </EmbeddedResource>
@@ -230,32 +273,35 @@
     <EmbeddedResource Include="LayGiamGia.resx">
       <DependentUpon>LayGiamGia.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuCombo.resx">
-      <DependentUpon>MenuCombo.cs</DependentUpon>
+    <EmbeddedResource Include="Menu_ComBo.resx">
+      <DependentUpon>Menu_ComBo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuComboTietKiem.resx">
-      <DependentUpon>MenuComboTietKiem.cs</DependentUpon>
+    <EmbeddedResource Include="Menu_ComBo_TietKiem.resx">
+      <DependentUpon>Menu_ComBo_TietKiem.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuSuaTuoiNguyenChat.resx">
-      <DependentUpon>MenuSuaTuoiNguyenChat.cs</DependentUpon>
+    <EmbeddedResource Include="Menu_SuaTuoiNguyenChat.resx">
+      <DependentUpon>Menu_SuaTuoiNguyenChat.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuThucAn.resx">
-      <DependentUpon>MenuThucAn.cs</DependentUpon>
+    <EmbeddedResource Include="Menu_ThucAn.resx">
+      <DependentUpon>Menu_ThucAn.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuTopping.resx">
-      <DependentUpon>MenuTopping.cs</DependentUpon>
+    <EmbeddedResource Include="Menu_Topping.resx">
+      <DependentUpon>Menu_Topping.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuTraKhong Sua.resx">
-      <DependentUpon>MenuTraKhong Sua.cs</DependentUpon>
+    <EmbeddedResource Include="Menu_TraKhongSua.resx">
+      <DependentUpon>Menu_TraKhongSua.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuTraXanh.resx">
-      <DependentUpon>MenuTraXanh.cs</DependentUpon>
+    <EmbeddedResource Include="Menu_TraXanh.resx">
+      <DependentUpon>Menu_TraXanh.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuXienQue.resx">
-      <DependentUpon>MenuXienQue.cs</DependentUpon>
+    <EmbeddedResource Include="Menu_XienQue.resx">
+      <DependentUpon>Menu_XienQue.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -266,6 +312,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff.resx">
+      <DependentUpon>Staff.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -278,6 +330,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
