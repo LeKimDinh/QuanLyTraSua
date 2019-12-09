@@ -48,6 +48,7 @@ namespace QuanLyTraSua
         private void button2_Click(object sender, EventArgs e)
         {
             sidepanel.Location = new Point(button2.Location.X + 3, button2.Location.Y + button2.Height);
+<<<<<<< HEAD
 
             if (Form1.trangthaidangnhap == 1)
             {
@@ -66,6 +67,10 @@ namespace QuanLyTraSua
                 button2.Text = "LogIn";
                 Form1.trangthaidangnhap = 1;
             }
+=======
+            Login login = new Login();
+            login.ShowDialog();
+>>>>>>> e73bcb2fe638eb223989d71606edc5ae4a3059a0
 
         }
 

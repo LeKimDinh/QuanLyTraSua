@@ -212,6 +212,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="Register.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -219,18 +220,23 @@
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
     <Compile Include="sqlException.cs" />
+=======
+>>>>>>> e73bcb2fe638eb223989d71606edc5ae4a3059a0
     <Compile Include="Staff.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Staff.Designer.cs">
       <DependentUpon>Staff.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <EmbeddedResource Include="Category.resx">
       <DependentUpon>Category.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Changepassword.resx">
       <DependentUpon>Changepassword.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> e73bcb2fe638eb223989d71606edc5ae4a3059a0
     <EmbeddedResource Include="ChiTietHoaDon.resx">
       <DependentUpon>ChiTietHoaDon.cs</DependentUpon>
     </EmbeddedResource>
@@ -311,10 +317,14 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+<<<<<<< HEAD
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> e73bcb2fe638eb223989d71606edc5ae4a3059a0
     <EmbeddedResource Include="Staff.resx">
       <DependentUpon>Staff.cs</DependentUpon>
     </EmbeddedResource>
@@ -332,7 +342,35 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Folder Include="Resources\" />
+=======
+    <None Include="Resources\Apps-User-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iconos_Redondos_Flat_Usuario_Icn-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_24759107-stock-photo-key-violet-circle-web-glossy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\800px_COLOURBOX6440696.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-vector-trash-icon-png-image_4152758.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BASIS_man_4-2-512.png" />
+>>>>>>> e73bcb2fe638eb223989d71606edc5ae4a3059a0
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

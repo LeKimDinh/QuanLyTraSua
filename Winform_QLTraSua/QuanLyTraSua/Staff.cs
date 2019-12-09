@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿
 using QuanLyTraSua.DBLayer;
 using System;
@@ -5,6 +6,12 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
+=======
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+>>>>>>> e73bcb2fe638eb223989d71606edc5ae4a3059a0
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,6 +22,7 @@ namespace QuanLyTraSua
 {
     public partial class Staff : Form
     {
+<<<<<<< HEAD
         DBMain db;
         DataTable dt = null;
         public static int trangthaidangnhap = 2;
@@ -23,10 +31,16 @@ namespace QuanLyTraSua
         {
             InitializeComponent();
             db = new DBMain();
+=======
+        public Staff()
+        {
+            InitializeComponent();
+>>>>>>> e73bcb2fe638eb223989d71606edc5ae4a3059a0
         }
 
         private void Staff_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             Form1.trangthaidangnhap = 2;
             if (trangthaidangnhap == 1)
             {
@@ -200,5 +214,9 @@ namespace QuanLyTraSua
             }
         }
 
+=======
+
+        }
+>>>>>>> e73bcb2fe638eb223989d71606edc5ae4a3059a0
     }
 }
